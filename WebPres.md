@@ -17,9 +17,11 @@ The tracts are racially diverse, being fairly evenly split between plurality asi
 ![](sj-most-common-race.png)
 
 ### Policing Data
-There are clear racial disparities in policing based on race
-
+Most stops tend to end with citations, but a significant portion end with a much more sever outcome: arrest
 ![](sj-outcomes.png)
+
+There are clear racial disparities in policing based on race
+![](sj-stops-by-race.png)
 
 ## Modelling
 
