@@ -11,11 +11,15 @@ Census data is divided into tracts, geographical areas with around 2,000 - 10,00
 ![](sj-cencus-by-pop.png)
 
 The tracts are racially diverse, being fairly evenly split between plurality asian, white, and hispanic
+
 ![](sj-most-common-geo.png)
 
 ![](sj-most-common-race.png)
 
-## Key EDA Finidings
+### Policing Data
+There are clear racial disparities in policing based on race
+
+![](sj-outcomes.png)
 
 ## Modelling
 
