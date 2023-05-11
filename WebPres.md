@@ -39,8 +39,8 @@ This is primarily here to refer back to for code -- not a real model
 ![](feature-coef-black.png)
 
 ![](feature-model-black.png)
-The plot above tells us about conditional dependencies. That means you interpret it by assuming all other features are held constant -- what is the likelihood of an arrest being made if you are Race out of Place vs not, with every other feature assumed. You can interpret the bars as how much each factor contributes to the "likelihood" of being arrested at a stop. For example, to interpret, if you are stopped as a pedestrian while Black, you have a higher likelihood of being arrested when stopped, while if you are stopped in a vehicle while Black, your likelihood of being arrested rather than cited at this stop is lower.
 
+The plot above tells us about conditional dependencies. That means you interpret it by assuming all other features are held constant -- what is the likelihood of an arrest being made if you are Race out of Place vs not, with every other feature assumed. You can interpret the bars as how much each factor contributes to the "likelihood" of being arrested at a stop. For example, to interpret, if you are stopped as a pedestrian while Black, you have a higher likelihood of being arrested when stopped, while if you are stopped in a vehicle while Black, your likelihood of being arrested rather than cited at this stop is lower.
 
 Here, you can see that for Black subjects in San Jose, because there are no census tracts in which a Black person can be "Race in Place," the "Race_OOP" has no bearing on the likelihood of being arrested at a stop. However, you can also see that if the census tract is primarily Asian or Pacific Islander, a Black person "out of place" in that census tract is much more likely to be arrested at a stop compared to majority Hispanic or majority white census tracts.
 
@@ -48,18 +48,21 @@ Here, you can see that for Black subjects in San Jose, because there are no cens
 ![](feature-coef-asian.png)
 
 ![](feature-model-asian.png)
+
 You can see here that for Asian subjects in San Jose, being Race out of Place leads to actually a very slight decrease (a coefficient of -0.005) in likelihood of being arrested over being cited. Counterintuitively to the Race out of Place hypothesis, an Asian subject is more likely to be arrested over cited in a majority Asian census tract compared to a majority White census tract. They are most likely to be arrested over cited in a majority Hispanic census tract.
 
 ### Model: Hispanic experience in San Jose
 ![](feature-coef-hispanic.png)
 
 ![](feature-model-hispanic.png)
+
 Like with Black subjects, being Race out of Place matters very little for Hispanic subjects, despite Hispanic-majority census tracts being roughly 1/3 of all census tracts. For Hispanic subjects, they are more likely to be arrested than cited in Asian-majority census tracts, while less likely to be arrested than cited in white or Hispanic-majority census tracts, though Hispanic-majority census tracts have a nearly negligible effect.
 
 ### Model: White experience in San Jose
 ![](feature-coef-white.png)
 
 ![](feature-model-white.png)
+
 Finally, with white subjects in San Jose, you can see that Race out of Place does have an effect on the likelihood of being arrested over cited, more so than with Hispanic, Black, or Asian subjects. They are most likely to be arrested over cited in majority Asian census tracts, with a coefficient on that variable, while less likely to be arrested over cited in majority Hispanic census tracts, and least likely to be arrested in majority white census tracts. Thus, white subjects in San Jose represent the most straightforward example of the Race out of Place hypothesis.
 
 ## Conclusion
