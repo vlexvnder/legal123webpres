@@ -10,6 +10,11 @@ Our data is drawn from two sources: U.S. census data and San Jose Police Data fr
 Census data is divided into tracts, geographical areas with around 2,000 - 10,000 people each in San Jose
 ![](sj-cencus-by-pop.png)
 
+The tracts are racially diverse, being fairly evenly split between plurality asian, white, and hispanic
+![](sj-most-common-geo.png)
+
+![](sj-most-common-race.png)
+
 ## Key EDA Finidings
 
 ## Modelling
