@@ -17,21 +17,22 @@ The tracts are racially diverse, being fairly evenly split between plurality asi
 ![](sj-most-common-race.png)
 
 ### Policing Data
-Most stops tend to end with citations, but a significant portion end with a much more sever outcome: arrest.
+Our policing data includes information about tens of thousands of stops, including demographic information about the stop, what occured during the stop, and the location of the stop. Most stops tend to end with citations, but a significant portion end with a much more severe outcome: arrest.
 
 ![](sj-outcomes.png)
 
-Most stops tend to be vehicular.
+Most stops tend to be vehicular, like a traffic stop, but a significant number are also on foot. 
 
 ![](sj-stops-by-race-tbl.png)
 
-There are clear racial disparities in policing based on race. This graph shows the total number of police interactions, based on the race of the suspect. Clearly, hispanics interact with the police a disportionate amount
-
-![](sj-stops-by-race.png)
+There are clear racial disparities in policing based on race. This graph shows the total number of police interactions, based on the race of the suspect. Clearly, hispanics interact with the police a disportionate amount, and are also disproportionately likely to be arrested. 
 
 ![](sj-race-arrest-bar.png)
 
+Clearly, there are significant racial disparities in arrests. But, we still need to determine if the demographics of the location of the arrest affect its outcome.
+
 ## Modelling
+In order to answer our question, we constructed several logistic regression models. We chose to use logistic regression models because they are quick to train and have high explainability, which is key because we will be analyzing the importance of the plurality race in the census tract in which each stop occurred. 
 
 ### Preliminary General Model
 This is a general model showing all of the features that we will use on the follwing train-test-split arrays we have created for each race in San Jose.
