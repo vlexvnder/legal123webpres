@@ -17,8 +17,13 @@ The tracts are racially diverse, being fairly evenly split between plurality asi
 ![](sj-most-common-race.png)
 
 ### Policing Data
-Most stops tend to end with citations, but a significant portion end with a much more sever outcome: arrest
+Most stops tend to end with citations, but a significant portion end with a much more sever outcome: arrest.
+
 ![](sj-outcomes.png)
+
+Most stops tend to be vehicular.
+
+![](sj-stops-by-race-tbl.png)
 
 There are clear racial disparities in policing based on race. This graph shows the total number of police interactions, based on the race of the suspect. Clearly, hispanics interact with the police a disportionate amount
 
