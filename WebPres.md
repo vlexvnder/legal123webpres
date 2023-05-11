@@ -31,6 +31,24 @@ There are clear racial disparities in policing based on race. This graph shows t
 
 ## Modelling
 
+![](general-feature-model.png)
+
+![](feature-coef-black.png)
+
+![](feature-model-black.png)
+
+![](feature-coef-asian.png)
+
+![](feature-model-asian.png)
+
+![](feature-coef-hispanic.png)
+
+![](feature-model-hispanic.png)
+
+![](feature-coef-white.png)
+
+![](feature-model-white.png)
+
 ## Conclusion
 San Jose is a major metropolitan area encompassing 1 million people, but it is also a unique geoeconomic zone, supported by commuters from the South Bay Area and San Francisco as well as housing commuters to the greater Bay Area locations. It also does not reflect the demographics of major cities outside California, like, say Detroit, NYC, or Chicago, which have more Black and Hispanic majority census tracts.
 
