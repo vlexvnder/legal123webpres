@@ -20,7 +20,8 @@ The tracts are racially diverse, being fairly evenly split between plurality asi
 Most stops tend to end with citations, but a significant portion end with a much more sever outcome: arrest
 ![](sj-outcomes.png)
 
-There are clear racial disparities in policing based on race
+There are clear racial disparities in policing based on race. This graph shows the total number of police interactions, based on the race of the suspect. Clearly, hispanics interact with the police a disportionate amount
+
 ![](sj-stops-by-race.png)
 
 ## Modelling
