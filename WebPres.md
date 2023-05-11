@@ -29,6 +29,8 @@ There are clear racial disparities in policing based on race. This graph shows t
 
 ![](sj-stops-by-race.png)
 
+![](sj-race-arrest-bar)
+
 ## Modelling
 
 ### Preliminary General Model
