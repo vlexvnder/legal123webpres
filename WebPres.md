@@ -32,7 +32,12 @@ There are clear racial disparities in policing based on race. This graph shows t
 ## Modelling
 
 ### Preliminary General Model
-This is primarily here to refer back to for code -- not a real model
+This is a general model showing all of the features that we will use on the follwing train-test-split arrays we have created for each race in San Jose.
+
+We will show coefficients for each and plots telling us about conditional dependencies. That means you interpret it by assuming all other features are held constant -- what is the likelihood of an arrest being made if you are Race out of Place vs not, with every other feature assumed.
+
+You can interpret the bars as how much each factor contributes to the "likelihood" of being arrested at a stop.
+
 ![](general-feature-model.png)
 
 ### Model: Black experience in San Jose
@@ -40,9 +45,9 @@ This is primarily here to refer back to for code -- not a real model
 
 ![](feature-model-black.png)
 
-The plot above tells us about conditional dependencies. That means you interpret it by assuming all other features are held constant -- what is the likelihood of an arrest being made if you are Race out of Place vs not, with every other feature assumed. You can interpret the bars as how much each factor contributes to the "likelihood" of being arrested at a stop. For example, to interpret, if you are stopped as a pedestrian while Black, you have a higher likelihood of being arrested when stopped, while if you are stopped in a vehicle while Black, your likelihood of being arrested rather than cited at this stop is lower.
+This model shows if you are stopped as a pedestrian and percieved as Black, you have a higher likelihood of being arrested when stopped. Uf you are in a vehicle your likelihood of being arrested rather than cited at this stop is lower.
 
-Here, you can see that for Black subjects in San Jose, because there are no census tracts in which a Black person can be "Race in Place," the "Race_OOP" has no bearing on the likelihood of being arrested at a stop. However, you can also see that if the census tract is primarily Asian or Pacific Islander, a Black person "out of place" in that census tract is much more likely to be arrested at a stop compared to majority Hispanic or majority white census tracts.
+You can see that for Black subjects in San Jose, because there are no census tracts in which a Black person can be "Race in Place," the "Race_OOP" has no bearing on the likelihood of being arrested at a stop. However, you can also see that if the census tract is primarily Asian or Pacific Islander, a Black person "out of place" in that census tract is much more likely to be arrested at a stop compared to majority Hispanic or majority white census tracts.
 
 ### Model: Asian experience in San Jose
 ![](feature-coef-asian.png)
