@@ -7,12 +7,14 @@ In this project, we aim to investigate a phenomenon known as "Race out of Place"
 Our data is drawn from two sources: U.S. census data and San Jose Police Data from the Stanford Open Policing Project.
 
 ### Census Data
-Census data is divided into tracts, geographical areas with around 2,000 - 10,000 people each in San Jose
+Census data is divided into tracts, geographical areas with around 2,000 - 10,000 people each in San Jose.
 ![](sj-cencus-by-pop.png)
 
-The tracts are racially diverse, being fairly evenly split between plurality asian, white, and hispanic
+The tracts are racially diverse, being fairly evenly split between plurality asian, white, and hispanic. Generally, there are clusters of tracts with similar racial make ups, showing areas where the hispanic community concentrates, for instance
 
 ![](sj-most-common-geo.png)
+
+There is a fairly equal split between census tracts of each type, although, because San Jose has a small Black and Native population, there is no tract of either type.
 
 ![](sj-most-common-race.png)
 
