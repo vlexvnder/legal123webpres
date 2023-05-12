@@ -21,7 +21,7 @@ Our policing data includes information about tens of thousands of stops, includi
 
 ![](sj-outcomes.png)
 
-Most stops tend to be vehicular, like a traffic stop, but a significant number are also on foot. 
+Most stops tend to be vehicular, like a traffic stop, but a significant number are also on foot. Our dataset represents a diverse set of police interactions, from stops on foot that end in a simple citation to vehicular stops that lead to a search, siezed contraband, and arrest. This gives us significant detail that allows us to understand what took place at each stop.
 
 ![](sj-stops-by-race-tbl.png)
 
@@ -29,7 +29,7 @@ There are clear racial disparities in policing based on race. This graph shows t
 
 ![](sj-race-arrest-bar.png)
 
-Clearly, there are significant racial disparities in arrests. But, we still need to determine if the demographics of the location of the arrest affect its outcome.
+There are significant racial disparities in arrests. But, we still need to determine if the demographics of the location of the arrest affect its outcome.
 
 ## Modelling
 In order to answer our question, we constructed several logistic regression models. We chose to use logistic regression models because they are quick to train and have high explainability, which is key because we will be analyzing the importance of the plurality race in the census tract in which each stop occurred. 
